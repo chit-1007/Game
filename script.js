@@ -16,14 +16,14 @@ const draw = () => {
 
 const userWin = () => {
     const message = document.querySelector('.msg');
-    message.innerHTML = 'You won and chitransh lost🥳!';
+    message.innerHTML = 'You won🥳!';
     message.style.backgroundColor = 'green';
     const userScore = document.querySelector('.user-score');
     userScore.innerHTML = you;
 }
 const compWin = () => {
     const message = document.querySelector('.msg');
-    message.innerHTML = 'You lose and Chitransh wins';
+    message.innerHTML = 'You lose';
     message.style.backgroundColor = 'red';
     const compScore = document.querySelector('.comp-score');
     compScore.innerHTML = comp;
